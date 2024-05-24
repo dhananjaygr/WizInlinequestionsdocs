@@ -552,7 +552,7 @@ Below page unlocking rules can be applied in the master doc:
    
    **Grouped single answer questions:**
     
-    - Here are the question Markdown used in the Grouped single answer questions format:
+    - Here are the question Markdowns used in the Grouped single answer questions format:   
 
       ```
       ## Metadata
