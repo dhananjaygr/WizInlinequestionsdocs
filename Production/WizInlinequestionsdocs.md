@@ -382,7 +382,7 @@ Below page unlocking rules can be applied in the master doc:
 
     - To incorporate the **unlocking rules** for the **first page**, the question Markdown file should be included in the **second order** of the raw file path within the Master Doc file.
 
-      Here are the unlocking rules for this question: It is marked as **Answered.** Therefore, even if the answer is incorrect, it should still allow progression to the next page.               However, without attempting to answer it, progression to the next page will be blocked.
+      Here are the **unlocking rules** for this question: It is marked as **Answered.** Therefore, even if the answer is incorrect, it should still allow progression to the next page.           However, without attempting to answer it, progression to the next page will be blocked.
 
       ![](./img/single2.png) 
 
@@ -392,11 +392,11 @@ Below page unlocking rules can be applied in the master doc:
 
       ![](./img/single3.png)
 
-1. **Scenario 02:**
+2. **Scenario 02:**
    
-   **Multiple answer questions:**
+   **Multiple answers questions:**
     
-    - Here is the question Markdown used in the Multiple Answer Question format:
+    - Here is the question Markdown used in the Multiple Answers Question format:
 
       ```
       ## Metadata
@@ -443,7 +443,7 @@ Below page unlocking rules can be applied in the master doc:
 
     - To include the **unlocking rules** for the **second page**, the question Markdown file should be included in the **third order** of the raw file path within the Master Doc file.
 
-      Here are the unlocking rules for this question: It is marked as **AnsweredCorrectly.** Therefore, the answer should be correct to proceed to the next page.
+      Here are the **unlocking rules** for this question: It is marked as **AnsweredCorrectly.** Therefore, the answer should be correct to proceed to the next page.
 
       ![](./img/multiple2.png) 
 
@@ -452,6 +452,195 @@ Below page unlocking rules can be applied in the master doc:
       Attendees can proceed to the next page by answering the question correctly, based on the unlocking rules.
 
       ![](./img/multiple3.png)
+
+3. **Scenario 03:**
+   
+   **Single and Multiple answers question:**
+    
+    - Here is the question Markdown used in the Single and Multiple Answers Question format:
+
+      ```
+      ## Metadata
+      Question Type : Single Choice
+      
+      ## Question
+      Which of the following steps is NOT part of creating a data classification rule in the Wiz portal?:
+      
+      ## Options
+      Option 1: Selecting the data type
+      
+      Option 2: Defining the severity level
+      
+      Option 3: Setting the maximum unique matches
+      
+      Option 4: Uploading the file to be classified
+      
+      ## Answers
+      Option 4 : 1
+      
+      ## Correct Answer Feedback
+      Option 4 is correct answer
+      
+      ## Incorrect Answer Feedback
+      Selected ## Options is not correct Option 4 is correct answer
+      
+      ## Tags
+      tag1
+      tag2
+      
+      ## Number of Retries
+      4
+      ```
+      
+      ```
+      ## Metadata
+      Question Type : Multiple Choice
+      Max Answers : 3
+      
+      ## Question
+      What is the purpose of setting the "Minimum unique matches" field when creating a data classification rule in the Wiz portal?:
+      
+      ## Options
+      Option 1: To determine the number of files to be scanned
+      
+      Option 2: To specify the minimum number of occurrences of the classified data within a single file
+      
+      Option 3: To control the sensitivity level of the classification rule
+      
+      Option 4: To prioritize the scanning of certain file types
+      
+      ## Answers
+      Option 2 : 1
+      Option 3 : 1
+      
+      ## Correct Answer Feedback
+      Option 2, 3 is correct answer
+      
+      ## Incorrect Answer Feedback
+      Selected ## Options is not correct Option 2, 3 is correct answer
+      
+      ## Tags
+      tag1
+      tag2
+      
+      ## Number of Retries
+      4
+      ```
+    - Now, include the question Markdown file on the Third page of the lab guide.
+
+      Here is the inline question file tag used on the Third page of the lab guide.
+
+      ![](./img/third1.png) 
+
+    - To include the **unlocking rules** for the **Third page**, the question Markdown file should be included in the **fourth order** of the raw file path within the Master Doc file.
+
+      Here are the **unlocking rules** for this question: It is marked as **AnsweredCorrectly.** Therefore, the answer should be correct to proceed to the next page.
+
+      ![](./img/third2.png) 
+
+      Attendee will be able to see inline questions like below:
+
+      Attendees can proceed to the next page by answering the question correctly, based on the unlocking rules.
+
+      ![](./img/third3.png)
+
+      ![](./img/third3_1.png)
+
+4. **Scenario 04:**
+   
+   **Grouped single answer questions:**
+    
+    - Here is the question Markdown used in the Grouped single answer questions format:
+
+      ```
+      ## Metadata
+      Question Type : Single Choice
+      
+      ## Question
+      What is the purpose of setting the "Minimum unique matches" field when creating a data classification rule in the Wiz portal?:
+      
+      ## Options
+      Option 1: To determine the number of files to be scanned
+      
+      Option 2: To specify the minimum number of occurrences of the classified data within a single file
+      
+      Option 3: To control the sensitivity level of the classification rule
+      
+      Option 4: To prioritize the scanning of certain file types
+      
+      ## Answers
+      Option 2 : 1
+      
+      ## Correct Answer Feedback
+      Option 2 is correct answer
+      
+      ## Incorrect Answer Feedback
+      Selected ## Options is not correct Option 2 is correct answer
+      
+      ## Tags
+      tag1
+      tag2
+      
+      ## Number of Retries
+      5
+      ```
+
+      ```
+      ## Metadata
+      Question Type : Single Choice
+      
+      ## Question
+      Which of the following steps is NOT part of creating a data classification rule in the Wiz portal?:
+      
+      ## Options
+      Option 1: Selecting the data type
+      
+      Option 2: Defining the severity level
+      
+      Option 3: Setting the maximum unique matches
+      
+      Option 4: Uploading the file to be classified
+      
+      ## Answers
+      Option 4 : 1
+      
+      ## Correct Answer Feedback
+      Option 4 is correct answer
+      
+      ## Incorrect Answer Feedback
+      Selected ## Options is not correct Option 4 is correct answer
+      
+      ## Tags
+      tag1
+      tag2
+      
+      ## Number of Retries
+      5
+      ```
+
+    - Now, include the question Markdown file on the fourth page of the lab guide.
+
+      Here is the inline question file tag used on the fourth page of the lab guide.
+
+      >**Note:** As these are grouped questions, we need to have a **metadata Markdown file** in the same group where the actual questions related to this metadata are located.
+
+      ![](./img/fourth1.png) 
+
+      ![](./img/fourth1_1.png) 
+
+      ![](./img/fourth2.png) 
+
+    - To include the **unlocking rules** for the **fourth page**, the question Markdown file should be included in the **fifth order** of the raw file path within the Master Doc file.
+
+      Here are the **unlocking rules** for this question: It is marked as Score. Therefore, the answer should be based on the **score**, and one should meet the threshold. Since there are       two questions, the combined score should meet the 50% threshold to proceed to the next page.
+
+      ![](./img/fourth3.png) 
+
+      Attendee will be able to see inline questions like below:
+
+      The **score** will not be displayed as of now, but based on two questions and a 50% threshold, if at least one is answered correctly, it will allow progression to the next page.
+
+      ![](./img/fourth4.png) 
 
 
 
