@@ -378,19 +378,19 @@ Below page unlocking rules can be applied in the master doc:
       
       >**Note:** We can also add full raw question Markdown file in the lab guide and Master doc also.
 
-      ![](../img/single1.png) 
+      ![](./img/single1.png) 
 
     - To add the **unlocking rules** for the first page, the question Markdown file should be included in the **second order** of the Master Doc file. 
 
       Here are the unlocking rules for this question: It is marked as answered. Therefore, even if the answer is incorrect, it should still allow progression to the next page. However,          without attempting to answer it, progression to the next page will be blocked.
 
-      ![](../img/single2.png) 
+      ![](./img/single2.png) 
 
       Attendee will be able to see inline questions like below:
 
       Attendees can proceed to the next page by either answering the question correctly or incorrectly, based on the unlocking rules.
 
-      ![](../img/single3.png)
+      ![](./img/single3.png)
 
 1. **Scenario 02:**
    
