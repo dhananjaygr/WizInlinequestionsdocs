@@ -329,4 +329,81 @@ Below page unlocking rules can be applied in the master doc:
 
 ## Example Scenarios:
 
- 
+1. **Scenario 01:**
+   
+   **Single answer questions:**
+
+    - Here is the question Markdown used in the Single Answer Question format:
+
+      >**Note:** To ensure the questions are properly synchronized with the lab guide, create a dedicated folder for questions. This will make the questions well-organized and easily accessible.
+
+      ```
+      ## Metadata
+      Question Type : Single Choice
+      
+      ## Question
+      What sensitivity labels are used by the military contractor to tag content?:
+      
+      ## Options
+      Option 1: Top Secret, Secret, Unclassified
+      
+      Option 2: Confidential, Unclassified, Sensitive
+      
+      Option 3: Secret, Confidential, Unclassified
+      
+      Option 4: Private, Public, Unclassified
+      
+      ## Answers
+      Option 3 : 1
+      
+      ## Correct Answer Feedback
+      Option 3 is correct answer
+      
+      ## Incorrect Answer Feedback
+      Selected ## Options is not correct Option 3 is correct answer
+      
+      ## Tags
+      tag1
+      tag2
+      
+      ## Number of Retries
+      2
+      ```
+
+    - Now, include the question Markdown file on the first page of the lab guide.
+
+      Here is the inline question file tag used on the first page of the lab guide.
+
+      >**Note:** We can add question file tag wherever necessary on the page, ensuring proper syntax is followed.
+      
+      >**Note:** We can also add full raw question Markdown file in the lab guide and Master doc also.
+
+      ![](../img/single1.png) 
+
+    - To add the **unlocking rules** for the first page, the question Markdown file should be included in the **second order** of the Master Doc file. 
+
+      Here are the unlocking rules for this question: It is marked as answered. Therefore, even if the answer is incorrect, it should still allow progression to the next page. However,          without attempting to answer it, progression to the next page will be blocked.
+
+      ![](../img/single2.png) 
+
+      Attendee will be able to see inline questions like below:
+
+      Attendees can proceed to the next page by either answering the question correctly or incorrectly, based on the unlocking rules.
+
+      ![](../img/single3.png)
+
+1. **Scenario 02:**
+   
+   **Multiple answer questions:**
+
+
+
+
+
+
+
+
+
+
+  
+     
