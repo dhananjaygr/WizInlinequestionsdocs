@@ -92,8 +92,6 @@ Below are the files which need to be created while authoring lab guide questions
 
 - Master doc file contains list of Lab guide page files and page unlocking rules.
 
-  ![](./img/7.png)
-
   ```
   [
     {
@@ -128,8 +126,6 @@ Below are the files which need to be created while authoring lab guide questions
 
   For individual questions- 	<question source="{relative question file path}" />
   For grouped questions- 	<grouped-questions source=”{relative question group file path}" />
- 
-  ![](./img/8.png)
 
   ```
   Please answer the following question
@@ -152,8 +148,6 @@ Below are the files which need to be created while authoring lab guide questions
 3.	**Question Metadata File –**
 
 - The question metadata file (markdown file) will contain the question specific information required to render the question in the front end. It will also contain the correct answer and score for validation purpose and number of allowed retries to submit the answer.
- 
-  ![](./img/9.png)
 
   ```
   ## Metadata
@@ -187,8 +181,6 @@ Below are the files which need to be created while authoring lab guide questions
   ## Number of Retries
   2
   ```
-
-  ![](./img/10.png) 
 
   ```  
   ## Metadata
@@ -284,9 +276,7 @@ Below are the files which need to be created while authoring lab guide questions
      An integer value which is used to control number of allowed retries to submit the answer.
 
      To allow unlimited retries, set it to zero ‘0’.
- 
-     ![](./img/11.png)
- 
+  
       ```
       ## Questions
       question-05
@@ -302,8 +292,6 @@ Below page unlocking rules can be applied in the master doc:
   
 1.	**Answered** - Ensures that given list of questions have been answered by the user before proceeding further.
 
-    ![](./img/12.png)  
-
     ```
     "UnlockingRules": [
               {
@@ -316,8 +304,6 @@ Below page unlocking rules can be applied in the master doc:
 
 2.	**Answered Correctly** - Ensures that given list of questions have been answered correctly before proceeding further.
  
-    ![](./img/13.png)  
-
     ```
     "UnlockingRules": [
               {
@@ -329,8 +315,6 @@ Below page unlocking rules can be applied in the master doc:
     ```
 
 3.	**Score** - Ensures that for the given list of questions user has received the required score before proceeding further.
-
-    ![](./img/14.png)  
 
     ```
     "UnlockingRules": [
