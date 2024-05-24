@@ -638,7 +638,7 @@ Below page unlocking rules can be applied in the master doc:
 
       Attendee will be able to see inline questions like below:
 
-      The **score** will not be displayed as of now, but based on two questions and a 50% threshold, if at least one is answered correctly, it will allow progression to the next page.
+      The **score** will not be displayed as of now, but based on two questions and a **50% threshold**, if at least one is answered correctly, it will allow progression to the next page.
 
       ![](./img/fourth4.png) 
 
