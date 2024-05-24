@@ -380,8 +380,6 @@ Below page unlocking rules can be applied in the master doc:
 
       ![](./img/single1.png) 
 
-      ![](./img/single1_1.png) 
-
     - To add the **unlocking rules** for the first page, the question Markdown file should be included in the **second order** of the Master Doc file. 
 
       Here are the unlocking rules for this question: It is marked as answered. Therefore, even if the answer is incorrect, it should still allow progression to the next page. However,          without attempting to answer it, progression to the next page will be blocked.
