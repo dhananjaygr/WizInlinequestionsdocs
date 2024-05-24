@@ -171,7 +171,7 @@ Below are the files which need to be created while authoring lab guide questions
 
      To allow unlimited retries, set it to zero ‘0’.
  
-   ![](./img/11.png)
+     ![](./img/11.png)
  
 ## Page Unlocking Rules:
 
