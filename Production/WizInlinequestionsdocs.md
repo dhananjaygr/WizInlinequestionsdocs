@@ -332,10 +332,10 @@ Below page unlocking rules can be applied in the master doc:
 1. **Scenario 01:**
    
    **Single answer questions:**
+      
+   >**Note:** To ensure the questions are properly synchronized with the lab guide, create a dedicated folder for questions. This will make the questions well-organized and easily accessible.
 
     - Here is the question Markdown used in the Single Answer Question format:
-
-      >**Note:** To ensure the questions are properly synchronized with the lab guide, create a dedicated folder for questions. This will make the questions well-organized and easily accessible.
 
       ```
       ## Metadata
@@ -374,15 +374,15 @@ Below page unlocking rules can be applied in the master doc:
 
       Here is the inline question file tag used on the first page of the lab guide.
 
-      >**Note:** We can add question file tag wherever necessary on the page, ensuring proper syntax is followed.
+      >**Note:** We can place question file tags wherever they're needed on the page, ensuring proper syntax is followed. Additionally, there's flexibility to include any number of questions.
       
-      >**Note:** We can also add full raw question Markdown file in the lab guide and Master doc also.
+      >**Note:** We can include the full raw question Markdown file in both the lab guide and the master document.
 
       ![](./img/single1.png) 
 
-    - To add the **unlocking rules** for the **first page**, the question Markdown file should be included in the **second order** of the Master Doc file. 
+    - To incorporate the **unlocking rules** for the **first page**, the question Markdown file should be included in the **second order** of the raw file path within the Master Doc file.
 
-      Here are the unlocking rules for this question: It is marked as answered. Therefore, even if the answer is incorrect, it should still allow progression to the next page. However,          without attempting to answer it, progression to the next page will be blocked.
+      Here are the unlocking rules for this question: It is marked as Answered. Therefore, even if the answer is incorrect, it should still allow progression to the next page. However,          without attempting to answer it, progression to the next page will be blocked.
 
       ![](./img/single2.png) 
 
@@ -395,6 +395,64 @@ Below page unlocking rules can be applied in the master doc:
 1. **Scenario 02:**
    
    **Multiple answer questions:**
+    
+    - Here is the question Markdown used in the Multiple Answer Question format:
+
+      ```
+      ## Metadata
+      Question Type : Multiple Choice
+      
+      Max Answers : 2
+      
+      
+      ## Question
+      Which severity level is assigned to the "Confidential Classification Rule" in the Wiz portal?:
+      
+      ## Options
+      Option 1: Low
+      
+      Option 2: Medium
+      
+      Option 3: High
+      
+      Option 4: Critical
+      
+      ## Answers
+      Option 2 : 1
+      Option 3 : 1
+      
+      ## Correct Answer Feedback
+      Option 2, 3 is correct answer
+      
+      ## Incorrect Answer Feedback
+      Selected ## Options is not correct Option 2, 3 is correct answer
+      
+      ## Tags
+      tag1
+      tag2
+      
+      ## Number of Retries
+      5
+      ```
+
+    - Now, include the question Markdown file on the second page of the lab guide.
+
+      Here is the inline question file tag used on the second page of the lab guide.
+
+      ![](./img/multiple1.png) 
+
+    - To include the **unlocking rules** for the **second page**, the question Markdown file should be included in the **third order** of the raw file path within the Master Doc file.
+
+      Here are the unlocking rules for this question: it is marked as AnsweredCorrectly. Therefore, the answer should be correct to proceed to the next page.
+
+      ![](./img/multiple2.png) 
+
+      Attendee will be able to see inline questions like below:
+
+      Attendees can proceed to the next page by answering the question correctly, based on the unlocking rules.
+
+      ![](./img/multiple3.png)
+
 
 
 
