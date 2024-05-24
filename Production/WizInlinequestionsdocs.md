@@ -528,9 +528,11 @@ Below page unlocking rules can be applied in the master doc:
       ```
     - Now, include the question Markdown file on the Third page of the lab guide.
 
-      Here is the inline question file tag used on the Third page of the lab guide.
+      Here are the inline questions file tag used on the Third page of the lab guide.
 
       ![](./img/third1.png) 
+
+      ![](./img/third1_1.png) 
 
     - To include the **unlocking rules** for the **Third page**, the question Markdown file should be included in the **fourth order** of the raw file path within the Master Doc file.
 
