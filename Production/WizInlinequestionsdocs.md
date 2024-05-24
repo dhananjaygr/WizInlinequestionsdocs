@@ -144,37 +144,37 @@ Below are the files which need to be created while authoring lab guide questions
 
      Value placed after colon (:) is the score.
 
-   -	### Correct answer feedback:
+   - ### Correct answer feedback:
 
-      Upon submission of correct answer, this text will be shown to lab user in front end.
+     Upon submission of correct answer, this text will be shown to lab user in front end.
 
-   -	### Incorrect answer feedback:
+   - ### Incorrect answer feedback:
 
-      When user submits an incorrect answer, this text will be shown to lab user in front end.
+     When user submits an incorrect answer, this text will be shown to lab user in front end.
 
-   -	### Tags:
+   - ### Tags:
 
-      This field is used as a tag and currently is not displayed anywhere. You can place any value here.
+     This field is used as a tag and currently is not displayed anywhere. You can place any value here.
 
-   -	## Number of Retries:
+   - ## Number of Retries:
 
-      An integer value which is used to control number of allowed retries to submit the answer.
+     An integer value which is used to control number of allowed retries to submit the answer.
 
-      To allow unlimited retries, set it to zero ‘0’. This field is not required in case of grouped questions.
+     To allow unlimited retries, set it to zero ‘0’. This field is not required in case of grouped questions.
 
 4.	**Question Group File –**
 - The question group file (markdown file) will contain the name of question files which are part of the grouped question and number of allowed retries to submit the answer.
 
 - Syntax of question group file:
 
-   -	## Question:
+   - ## Question:
 
-       Specify the question file names which are part of this grouped question.
+     Specify the question file names which are part of this grouped question.
 
-   -	## Number of Retries:
+   - ## Number of Retries:
 
-      An integer value which is used to control number of allowed retries to submit the answer.
-      To allow unlimited retries, set it to zero ‘0’.
+     An integer value which is used to control number of allowed retries to submit the answer.
+     To allow unlimited retries, set it to zero ‘0’.
  
    ![](./img/11.png)
  
