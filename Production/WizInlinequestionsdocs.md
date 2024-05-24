@@ -22,17 +22,17 @@ The feature supports two types of questions:
 
 **Step 1: Enable Inline Questions in Template config:**
 
-- To enable Inline Questions, we need to input master doc URL in Template config, which will make ‘Render Inline Lab Guide Questions’ checkbox visible.
+- To enable Inline Questions, we need to input master doc URL in Template config, which will make R**ender Inline Lab Guide Questions** checkbox visible.
 
-- On tick of ‘Render Inline Lab Guide Questions’ checkbox, the feature flag will get enabled in OnDemand lab config.
+- On tick of **Render Inline Lab Guide Questions** checkbox, the feature flag will get enabled in OnDemand lab config.
 
   ![](./img/1.png) 
 
 **Step 2: Enable Inline Questions in OnDemand lab config:**
 
-- Once Inline Questions feature has been enabled in Template config, we need to input master doc URL in OnDemand lab config, which will make ‘Render Inline Lab Guide Questions’ checkbox visible.
+- Once Inline Questions feature has been enabled in Template config, we need to input master doc URL in OnDemand lab config, which will make **Render Inline Lab Guide Questions** checkbox visible.
 
-- On tick of ‘Render Inline Lab Guide Questions’ checkbox, the Inline Questions will be rendered in Lab Guide for new deployments.
+- On tick of **Render Inline Lab Guide Questions** checkbox, the Inline Questions will be rendered in Lab Guide for new deployments.
 
   ![](./img/2.png) 
 
