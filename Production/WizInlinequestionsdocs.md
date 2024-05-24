@@ -46,7 +46,7 @@ The feature supports two types of questions:
 
     In case any Inline question has been updated (Added / Modified / Removed) in the lab guide, it will be synched automatically after every 6 hours. To perform on demand sync, we can manually edit the ODL config and save it (no changes required in configuration), this will trigger an OnDemand sync of Inline questions.
 
-    Once sync has been completed, changes done on the questions will reflect on existing OR new deployments based on following rules:
+Once sync has been completed, changes done on the questions will reflect on existing OR new deployments based on following rules:
 
 1.	A new lab guide page is added – The questions on that will be available for new deployments / retakes only.
 
