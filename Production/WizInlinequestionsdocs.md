@@ -93,7 +93,33 @@ Below are the files which need to be created while authoring lab guide questions
 - Master doc file contains list of Lab guide page files and page unlocking rules.
 
   ![](./img/7.png)
- 
+
+  ```
+  [
+    {
+      "Name": "How to Design a Lab Guide",
+      "Language": "English",
+      "Files": [
+        {
+          "RawFilePath": "https://docs-api-qa.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabs-AI/Practice-Test-Sample/main/qa-lab-guide/lab/01-single-question.md",
+          "Order": 1
+        },
+        {
+          "RawFilePath": "https://docs-api-qa.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabs-AI/Practice-Test-Sample/main/qa-lab-guide/lab/02-multiple-question.md",
+          "Order": 2,
+          "UnlockingRules": [
+            {
+              "UnlockDependency": "Questions",
+              "DependentQuestions": [ "./questions/Page1/question-01.md", "./questions/Page1/question-02.md" ],
+              "UnlockCriteria": "AnsweredCorrectly"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  ```
+  
 2.	**Lab Guide Page File –**
 
 - The lab guide page file (markdown file) will contain the content to render on lab guide page, along with inline question file tags.
@@ -105,13 +131,101 @@ Below are the files which need to be created while authoring lab guide questions
  
   ![](./img/8.png)
 
+  ```
+  Please answer the following question
+  <question source="../questions/Page7/question-01.md" />
+  
+  Please answer the following question
+  <question source="../questions/Page7/question-02.md" />
+  
+  Please answer the following question
+  <question source="../questions/Page7/question-03.md" />
+  
+  Please answer the following question
+  <question source="../questions/Page7/question-04.md" />
+  
+  Please provide feedback about the lab guide
+  <grouped-questions source="../questions/Page7/page-7-metadata.md" />
+  
+  ```
+
 3.	**Question Metadata File –**
 
 - The question metadata file (markdown file) will contain the question specific information required to render the question in the front end. It will also contain the correct answer and score for validation purpose and number of allowed retries to submit the answer.
  
   ![](./img/9.png)
 
+  ```
+  ## Metadata
+  Question Type : Single Choice
+  
+  ## Question
+  What sensitivity labels are used by the military contractor to tag content?:
+  
+  ## Options
+  Option 1: Top Secret, Secret, Unclassified
+  
+  Option 2: Confidential, Unclassified, Sensitive
+  
+  Option 3: Secret, Confidential, Unclassified
+  
+  Option 4: Private, Public, Unclassified
+  
+  ## Answers
+  Option 3 : 1
+  
+  ## Correct Answer Feedback
+  Option 3 is correct answer
+  
+  ## Incorrect Answer Feedback
+  Selected ## Options is not correct Option 3 is correct answer
+  
+  ## Tags
+  tag1
+  tag2
+  
+  ## Number of Retries
+  2
+  ```
+
   ![](./img/10.png) 
+
+  ```  
+  ## Metadata
+  Question Type : Multiple Choice
+  
+  Max Answers : 2
+  
+  
+  ## Question
+  Which severity level is assigned to the "Confidential Classification Rule" in the Wiz portal?:
+  
+  ## Options
+  Option 1: Low
+  
+  Option 2: Medium
+  
+  Option 3: High
+  
+  Option 4: Critical
+  
+  ## Answers
+  Option 2 : 1
+  Option 3 : 1
+  
+  ## Correct Answer Feedback
+  Option 2, 3 is correct answer
+  
+  ## Incorrect Answer Feedback
+  Selected ## Options is not correct Option 2, 3 is correct answer
+  
+  ## Tags
+  tag1
+  tag2
+  
+  ## Number of Retries
+  5
+  ```
                     
 - Syntax of question metadata file:
 
@@ -173,6 +287,15 @@ Below are the files which need to be created while authoring lab guide questions
  
      ![](./img/11.png)
  
+      ```
+      ## Questions
+      question-05
+      question-06
+      
+      ## Number of Retries
+      5
+      ```
+
 ## Page Unlocking Rules:
 
 Below page unlocking rules can be applied in the master doc:
@@ -181,10 +304,41 @@ Below page unlocking rules can be applied in the master doc:
 
     ![](./img/12.png)  
 
+    ```
+    "UnlockingRules": [
+              {
+                "UnlockDependency": "GroupedQuestions",
+                "DependentQuestions": [ "./questions/Page7/page-7-metadata.md", "./questions/Page7/question-02.md" ],
+                "UnlockCriteria": "Answered"
+              }
+            ]
+    ```
+
 2.	**Answered Correctly** - Ensures that given list of questions have been answered correctly before proceeding further.
  
     ![](./img/13.png)  
 
+    ```
+    "UnlockingRules": [
+              {
+                "UnlockDependency": "GroupedQuestions",
+                "DependentQuestions": [ "./questions/Page5/question-05.md" ],
+                "UnlockCriteria": "AnsweredCorrectly"
+              }
+            ]
+    ```
+
 3.	**Score** - Ensures that for the given list of questions user has received the required score before proceeding further.
 
     ![](./img/14.png)  
+
+    ```
+    "UnlockingRules": [
+              {
+                "UnlockDependency": "GroupedQuestions",
+                "DependentQuestions": [ "./questions/Page4/page-4-metadata.md" ],
+                "UnlockCriteria": "Score",
+                "UnlockPercentageThreshold": 50
+              }
+            ]
+    ```
