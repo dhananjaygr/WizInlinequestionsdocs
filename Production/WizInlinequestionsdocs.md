@@ -34,7 +34,7 @@ The feature supports two types of questions:
 
 - On tick of **Render Inline Lab Guide Questions** checkbox, the Inline Questions will be rendered in Lab Guide for new deployments.
 
-  ![](./img/2.png) 
+  ![](./img/1.png) 
 
 ## FAQs:
 
@@ -64,23 +64,23 @@ Once sync has been completed, changes done on the questions will reflect on exis
 
 - Once feature has been enabled in ODL config, attendee will be able to see inline questions like below:
 
-  ![](./img/3.png)
+  ![](./img/2.png)
 
 - To answer an Inline question, user need to select the appropriate option and click Submit button. 
 
 - It is possible to group multiple questions, in that case a single Submit button will be visible to the user for all the questions in the group.
 
-  ![](./img/4.png) 
+  ![](./img/3.png) 
 
 - Once the answer has been submitted, result will be shown instantly like below:
 
-  ![](./img/5.png) 
+  ![](./img/4.png) 
  
 - In case the user submits a wrong answer, a Retry button will be visible as below:
 
 - Retry option is available for a defined no of retries only which is configured in lab guide.
 
-  ![](./img/6.png)  
+  ![](./img/5.png)  
  
 ## Authoring Inline Lab Guide Questions:
 
