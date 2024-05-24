@@ -622,7 +622,7 @@ Below page unlocking rules can be applied in the master doc:
 
       Here is the inline question file tag used on the fourth page of the lab guide.
 
-      >**Note:** As these are grouped questions, we need to have a **metadata Markdown file** in the same group where the actual questions related to this metadata are located.
+      >**Note:** As these are grouped questions, we need to have a **grouped Markdown file (metadata file)** in the same group where the actual questions related to this metadata are located.
 
       ![](./img/fourth1.png) 
 
