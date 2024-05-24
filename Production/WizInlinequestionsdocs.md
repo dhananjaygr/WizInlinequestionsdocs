@@ -382,7 +382,7 @@ Below page unlocking rules can be applied in the master doc:
 
     - To incorporate the **unlocking rules** for the **first page**, the question Markdown file should be included in the **second order** of the raw file path within the Master Doc file.
 
-      Here are the unlocking rules for this question: It is marked as Answered. Therefore, even if the answer is incorrect, it should still allow progression to the next page. However,          without attempting to answer it, progression to the next page will be blocked.
+      Here are the unlocking rules for this question: It is marked as **Answered.** Therefore, even if the answer is incorrect, it should still allow progression to the next page.               However, without attempting to answer it, progression to the next page will be blocked.
 
       ![](./img/single2.png) 
 
@@ -443,7 +443,7 @@ Below page unlocking rules can be applied in the master doc:
 
     - To include the **unlocking rules** for the **second page**, the question Markdown file should be included in the **third order** of the raw file path within the Master Doc file.
 
-      Here are the unlocking rules for this question: it is marked as AnsweredCorrectly. Therefore, the answer should be correct to proceed to the next page.
+      Here are the unlocking rules for this question: It is marked as **AnsweredCorrectly.** Therefore, the answer should be correct to proceed to the next page.
 
       ![](./img/multiple2.png) 
 
