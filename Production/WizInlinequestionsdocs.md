@@ -642,7 +642,108 @@ Below page unlocking rules can be applied in the master doc:
 
       The **score** will not be displayed as of now, but based on two questions and a **50% threshold**, if at least one is answered correctly, it will allow progression to the next page.
 
-      ![](./img/fourth4.png) 
+      ![](./img/fourth4.png)
+
+5. **Scenario 05:**
+   
+   **Grouped Multiple answers questions:**
+    
+    - Here are the question Markdowns used in the Grouped Multiple answers questions format:   
+
+      ```
+      ## Metadata
+      Question Type : Multiple Choice
+      Max Answers : 2
+      
+      ## Question
+      In the context of GitHub, what does the term "fork" mean?:
+      
+      ## Options
+      Option 1: To create a duplicate of a repository under your GitHub account
+      
+      Option 2: To merge changes from one branch into another
+      
+      Option 3: To create a new branch from an existing one
+      
+      Option 4: To revert changes made in a commit
+      
+      ## Answers
+      Option 1 : 1
+      Option 3 : 1
+      
+      ## Correct Answer Feedback
+      Option 1, 3 is correct answer
+      
+      ## Incorrect Answer Feedback
+      Selected ## Options is not correct Option 1, 3 is correct answer
+      
+      ## Tags
+      tag1
+      tag2
+      
+      ## Number of Retries
+      5
+      ```
+
+      ```
+      ## Metadata
+      Question Type : Multiple Choice
+      Max Answers : 2
+      
+      ## Question
+      What is the purpose of a pull request in GitHub?:
+      
+      ## Options
+      Option 1: To request changes to a repository
+      
+      Option 2: To review changes made in a branch before merging them into another branch
+      
+      Option 3: To undo changes made in a commit
+      
+      Option 4: To create a new branch from an existing one
+      
+      ## Answers
+      Option 1 : 1
+      Option 2 : 1
+      
+      ## Correct Answer Feedback
+      Option 1, 2 is correct answer
+      
+      ## Incorrect Answer Feedback
+      Selected ## Options is not correct Option 1, 2 is correct answer
+      
+      ## Tags
+      tag1
+      tag2
+      
+      ## Number of Retries
+      5
+      ```
+
+    - Now, include the question Markdown file on the fifth page of the lab guide.
+
+      Here is the inline question file tag used on the fifth page of the lab guide.
+
+      >**Note:** As these are grouped questions, we need to have a **grouped Markdown file (metadata file)** in the same group where the actual questions related to this metadata are located.
+
+      ![](./img/fifth1.png) 
+
+      ![](./img/fifth1_1.png) 
+
+      ![](./img/fifth2.png) 
+
+    - To include the **unlocking rules** for the **fifth page**, the question Markdown file should be included in the **sixth order** of the raw file path within the Master Doc file.
+
+      Here are the **unlocking rules** for this question: It is marked as **AnsweredCorrectly.** Therefore, the answer should be correct to proceed to the next page.
+
+      ![](./img/fifth3.png) 
+
+      Attendee will be able to see inline questions like below:
+
+      Attendees can proceed to the next page by answering the question correctly, based on the unlocking rules.
+
+      ![](./img/fifth4.png) 
+
 
 
 
