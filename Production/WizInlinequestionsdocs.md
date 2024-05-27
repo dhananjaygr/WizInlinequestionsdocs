@@ -916,6 +916,182 @@ Below page unlocking rules can be applied in the master doc:
 
       ![](./img/sixth5.png) 
 
+7. **Scenario 07:**
+   
+   **Single and Multiple answers questions:** 
+   **Grouped Single and Multiple answers questions:** 
+    
+    - Here are the question Markdowns used in the Single and Multiple answers questions and Grouped Single and Multiple answers questions format:   
+
+      ```
+      ## Metadata
+      Question Type : Single Choice
+      
+      ## Question
+      What is the purpose of the "Wiz IaC Scanner" in the CI/CD pipeline?:
+      
+      ## Options
+      Option 1: To check for vulnerabilities in the code
+      
+      Option 2: To review changes made in a branch before merging them into another branch
+      
+      Option 3: To scan for Infrastructure as Code misconfigurations
+      
+      Option 4:  To revert changes made in a commit
+      
+      ## Answers
+      Option 3 : 1
+      
+      ## Correct Answer Feedback
+      Option 3 is correct answer
+      
+      ## Incorrect Answer Feedback
+      Selected ## Options is not correct Option 3 is correct answer
+      
+      ## Tags
+      tag1
+      tag2
+      
+      ## Number of Retries
+      2
+      ```
+
+      ```
+      ## Metadata
+      Question Type : Multiple Choice
+      Max Answers : 2
+      
+      ## Question
+      What action did the author take in response to the "Wiz IaC Scanner" finding regarding the Dockerfile?:
+      
+      ## Options
+      Option 1: Ignored the finding and proceeded with merging
+      
+      Option 2: Addressed the misconfiguration in the Dockerfile
+      
+      Option 3: Reverted the changes made in the commit
+      
+      Option 4: Created a new branch to isolate the issue
+      
+      Option 5: Ignored the finding 
+      
+      
+      ## Answers
+      Option 1 : 1
+      Option 2 : 1
+      
+      ## Correct Answer Feedback
+      Option 1, 2 is correct answer
+      
+      ## Incorrect Answer Feedback
+      Selected ## Options is not correct Option 1, 2 is correct answer
+      
+      ## Tags
+      tag1
+      tag2
+      
+      ## Number of Retries
+      5
+      ```
+
+      ```
+      ## Metadata
+      Question Type : Single Choice
+      
+      ## Question
+      What is the potential consequence of ignoring the findings from the "Wiz Secret Scanner"?:
+      
+      ## Options
+      Option 1 : Increased code quality and security
+      
+      Option 2 : Reduced risk of compromise and privilege escalation
+      
+      Option 3 : Enhanced integration with the CI/CD pipeline
+      
+      Option 4 : Higher likelihood of exposing sensitive credentials
+      
+      ## Answers
+      Option 4 : 1
+      
+      ## Correct Answer Feedback
+      Option 4 is correct answer
+      
+      ## Incorrect Answer Feedback
+      Selected ## Options is not correct Option 4 is correct answer
+      
+      ## Tags
+      tag1
+      tag2
+      
+      ## Number of Retries
+      5
+      ```
+      
+      ```
+      ## Metadata
+      Question Type : Multiple Choice
+      Max Answers : 2
+      
+      ## Question
+      Why did the author choose to merge the pull request despite the "Wiz Secret Scanner" finding?:
+      
+      ## Options
+      Option 1: To increase the number of commits in the repository
+      
+      Option 2: To speed up the deployment process
+      
+      Option 3: To demonstrate bypassing checks in the CI/CD pipeline
+      
+      Option 4: To address all findings before merging
+      
+      ## Answers
+      Option 2 : 1
+      Option 3 : 1
+      
+      ## Correct Answer Feedback
+      Option 2, 3 is correct answer
+      
+      ## Incorrect Answer Feedback
+      Selected ## Options is not correct Option 2, 3 is correct answer
+      
+      ## Tags
+      tag1
+      tag2
+      
+      ## Number of Retries
+      2
+      ```
+
+    - Now, include the question Markdown file on the seventh page of the lab guide.
+
+      Here is the inline question file tag used on the seventh page of the lab guide.
+
+      >**Note:** As these are grouped questions, we need to have a **grouped Markdown file (metadata file)** in the same group where the actual questions related to this metadata are located.
+
+      ![](./img/seventh1.png) 
+
+      ![](./img/seventh1_1.png) 
+
+      ![](./img/seventh2.png) 
+
+      ![](./img/seventh2_1.png) 
+
+    - To include the **unlocking rules** for the **seventh page**, the question Markdown file should be included in the **eighth order** of the raw file path within the Master Doc file.
+
+      Here are the **unlocking rules** for this question: It is marked as **Answered.** Therefore, even if the answer is **incorrect,** it should still allow progression to the next            page. However, without attempting to answer it, progression to the next page will be blocked.
+
+      ![](./img/seventh3.png) 
+
+      Attendee will be able to see inline questions like below:
+
+      Attendees can proceed to the next page by either answering the question correctly or incorrectly, based on the unlocking rules.
+
+      ![](./img/seventh4.png) 
+
+      ![](./img/seventh4_1.png) 
+
+      ![](./img/seventh4_2.png) 
+
 
 
 
