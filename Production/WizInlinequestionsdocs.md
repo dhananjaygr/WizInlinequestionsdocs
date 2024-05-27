@@ -1077,7 +1077,7 @@ Below page unlocking rules can be applied in the master doc:
 
       ![](./img/seventh2_1.png) 
 
-    - To include the **unlocking rules** for the **seventh page**, the question Markdown file should be included in the **eighth order** of the raw file path within the Master Doc file.
+    - To include the **unlocking rules** for the **seventh page**, the question Markdown file should be included in the **eigth order** of the raw file path within the Master Doc file.
 
       Here are the **unlocking rules** for this question: It is marked as **Answered.** Therefore, even if the answer is **incorrect,** it should still allow progression to the next            page. However, without attempting to answer it, progression to the next page will be blocked.
 
