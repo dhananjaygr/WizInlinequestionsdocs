@@ -744,6 +744,178 @@ Below page unlocking rules can be applied in the master doc:
 
       ![](./img/fifth4.png) 
 
+6. **Scenario 06:**
+   
+   **Grouped Single and Multiple answers questions:**
+    
+    - Here are the question Markdowns used in the Grouped Single and Multiple answers questions format:   
+
+      ```
+      ## Metadata
+      Question Type : Single Choice
+      
+      ## Question
+      What is the purpose of creating a new branch when committing changes to a GitHub repository?:
+      
+      ## Options
+      Option 1: To separate different versions of the code
+      
+      Option 2: To merge changes from one branch into another
+      
+      Option 3: To revert changes made in a commit
+      
+      Option 4: To create a duplicate of a repository under your GitHub account
+      
+      ## Answers
+      Option 2 : 1
+      
+      ## Correct Answer Feedback
+      Option 2 is correct answer
+      
+      ## Incorrect Answer Feedback
+      Selected ## Options is not correct Option 2 is correct answer
+      
+      ## Tags
+      tag1
+      tag2
+      
+      ## Number of Retries
+      5
+      ```
+
+      ```
+      ## Metadata
+      Question Type : Single Choice
+      
+      ## Question
+      What does the "Wiz IaC Scanner" check for during the CI/CD process?:
+      
+      ## Options
+      Option 1: Code syntax errors
+      
+      Option 2: Infrastructure as Code misconfigurations
+      
+      Option 3: Vulnerabilities in the code
+      
+      Option 4: Secret keys stored in the code
+      
+      ## Answers
+      Option 2 : 1
+      
+      ## Correct Answer Feedback
+      Option 2 is correct answer
+      
+      ## Incorrect Answer Feedback
+      Selected ## Options is not correct Option 2 is correct answer
+      
+      ## Tags
+      tag1
+      tag2
+      
+      ## Number of Retries
+      5
+      ```
+
+      ```
+      ## Metadata
+      Question Type : Multiple Choice
+      Max Answers : 2
+      
+      ## Question
+      What action is recommended when the "Wiz Secret Scanner" fails during a pull request check?:
+      
+      ## Options
+      Option 1: Ignore the findings and proceed with merging
+      
+      Option 2: Address the identified secrets in the code
+      
+      Option 3: Submit the pull request without addressing the issues
+      
+      Option 4: Revert the changes made in the pull request
+      
+      Option 5: Ignore the findings
+      
+      ## Answers
+      Option 2 : 1
+      Option 3 : 1
+      
+      ## Correct Answer Feedback
+      Option 2,3 is correct answer
+      
+      ## Incorrect Answer Feedback
+      Selected ## Options is not correct Option 2,3 is correct answer
+      
+      ## Tags
+      tag1
+      tag2
+      
+      ## Number of Retries
+      2
+      ```
+      
+      ```
+      ## Metadata
+      Question Type : Multiple Choice
+      Max Answers : 2
+      
+      ## Question
+      Why is it important to address the issues found by the Wiz scanners during the CI/CD process?:
+      
+      ## Options
+      Option 1: To increase the number of commits in the repository
+      
+      Option 2: To enhance the code quality and security
+      
+      Option 3: To speed up the deployment process
+      
+      Option 4: To create more branches in the repository
+      
+      Option 5: To only increase the number of commits
+      
+      ## Answers
+      Option 2 : 1
+      Option 3 : 1
+      
+      ## Correct Answer Feedback
+      Option 2,3 is correct answer
+      
+      ## Incorrect Answer Feedback
+      Selected ## Options is not correct Option 2,3 is correct answer
+      
+      ## Tags
+      tag1
+      tag2
+      
+      ## Number of Retries
+      2
+      ```
+
+    - Now, include the question Markdown file on the sixth page of the lab guide.
+
+      Here is the inline question file tag used on the sixth page of the lab guide.
+
+      >**Note:** As these are grouped questions, we need to have a **grouped Markdown file (metadata file)** in the same group where the actual questions related to this metadata are located.
+
+      ![](./img/sixth1.png) 
+
+      ![](./img/sixth1_1.png) 
+
+      ![](./img/sixth2.png) 
+
+    - To include the **unlocking rules** for the **sixth page**, the question Markdown file should be included in the **seventh order** of the raw file path within the Master Doc file.
+
+      Here are the **unlocking rules** for this question: It is marked as **Answered.** Therefore, even if the answer is **incorrect,** it should still allow progression to the next page.       However, without attempting to answer it, progression to the next page will be blocked.
+
+      ![](./img/sixth3.png) 
+
+      Attendee will be able to see inline questions like below:
+
+      Attendees can proceed to the next page by either answering the question correctly or incorrectly, based on the unlocking rules.
+
+      ![](./img/sixth4.png) 
+
+      ![](./img/sixth5.png) 
+
 
 
 
