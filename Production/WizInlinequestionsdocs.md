@@ -335,7 +335,7 @@ Below page unlocking rules can be applied in the master doc:
       
    >**Note:** To ensure the questions are properly synchronized with the lab guide, create a dedicated folder for questions. This will make the questions well-organized and easily accessible.
 
-    - Here is the question Markdown used in the Single Answer Question format:
+    - Here is the question Markdown used for the Single Answer Question format:
 
       ```
       ## Metadata
@@ -396,7 +396,7 @@ Below page unlocking rules can be applied in the master doc:
    
    **Multiple answers questions:**
     
-    - Here is the question Markdown used in the Multiple Answers Question format:
+    - Here is the question Markdown used for the Multiple Answers Question format:
 
       ```
       ## Metadata
@@ -457,7 +457,7 @@ Below page unlocking rules can be applied in the master doc:
    
    **Single and Multiple answers question:**
     
-    - Here is the question Markdown used in the Single and Multiple Answers Question format:
+    - Here is the question Markdown used for the Single and Multiple Answers Question format:
 
       ```
       ## Metadata
@@ -552,7 +552,7 @@ Below page unlocking rules can be applied in the master doc:
    
    **Grouped single answer questions:**
     
-    - Here are the question Markdowns used in the Grouped single answer questions format:   
+    - Here are the question Markdowns used for the Grouped Single Answer Questions format:
 
       ```
       ## Metadata
@@ -648,7 +648,7 @@ Below page unlocking rules can be applied in the master doc:
    
    **Grouped Multiple answers questions:**
     
-    - Here are the question Markdowns used in the Grouped Multiple answers questions format:   
+    - Here are the question Markdowns used for the Grouped Multiple Answers Questions format: 
 
       ```
       ## Metadata
@@ -748,7 +748,7 @@ Below page unlocking rules can be applied in the master doc:
    
    **Grouped Single and Multiple answers questions:**
     
-    - Here are the question Markdowns used in the Grouped Single and Multiple answers questions format:   
+    - Here are the question Markdowns used for the Grouped Single and Multiple Answers Questions format:
 
       ```
       ## Metadata
@@ -922,7 +922,7 @@ Below page unlocking rules can be applied in the master doc:
 
    **Grouped Single and Multiple answers questions:** 
     
-    - Here are the question Markdowns used in the Single and Multiple answers questions and Grouped Single and Multiple answers questions format:   
+    - Here are the question Markdowns used for Single and Multiple Answers question format, as well as for Grouped Single and Multiple Answers question format:
 
       ```
       ## Metadata
