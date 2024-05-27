@@ -919,6 +919,7 @@ Below page unlocking rules can be applied in the master doc:
 7. **Scenario 07:**
    
    **Single and Multiple answers questions:** 
+
    **Grouped Single and Multiple answers questions:** 
     
     - Here are the question Markdowns used in the Single and Multiple answers questions and Grouped Single and Multiple answers questions format:   
